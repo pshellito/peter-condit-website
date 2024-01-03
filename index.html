@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page.
+    -->
+    <title>Peter Condit, Ph.D. | Oxbow Science, LLC</title>
+    <link rel="icon" href="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/none-button.png?v=1702623591347" type="image/png"/>
+    <meta name="description" content="Research, modeling, custom data anlyses"
+    />
+    
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="./style.css" /> 
+    <!-- The website JavaScript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!--
+      The body includes the content you see in the page
+      Each element is defined using tags, like this <div></div>
+      The attributes like class="wrapper" let us style elements in the CSS
+    -->
+    <div class="container" id="top-anchor">
+      <!-- Title box -->
+      <div class="titlebox">
+        <h1 class="titleline">Peter Condit</h1>
+        <h1 class="tagline">Oxbow Science
+        </h1>
+      </div>
+      <div class="space">
+      </div>
+      <div class="sectioncard">
+        <h3>
+          About
+        </h3>
+        <div class="polaroid">
+          <div class="row">
+            
+            <div class="column column-2">
+              <img class="photo profile" alt="Peter in a flannel shirt and sweater, in front of long green grass, some green trees, and a bright yellow Schwinn super sport bicycle." src="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/Peter.jpg?v=1703023973202">
+              <p class="endtext centered profiletext">
+                Peter J. Shellito Condit <br> (he/him), Ph.D.
+              </p>
+            </div>
+            <div class="column column-2">
+                
+            <!-- <p class="abouttext ">
+              Successful research starts with a meaningful question. Through a 
+              shared interest in finding answers, I have developed collaborations and achieve  
+              results that impact climate forecasts, drought and flood risk, 
+              and public health policy.
+            </p> -->
+            <p class="abouttext"> 
+              Whether with community groups, artists,
+              academics, or government employees, I strive to expand 
+              research participation at all levels by developing 
+              inclusive habits that support my
+              collaborators' professional goals and personal needs. 
+              I'd love to hear from you!
+            </p>
+            <p class="abouttext centered contact" >
+              Send me an <a href="mailto:shellito@gmail.com" target="_blank">email</a><br>
+              Connect on <a href="https://www.linkedin.com/in/peter-shellito/" target="_blank">LinkedIn</a><br>
+              View my <a href="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/Peter%20Condit%20Resume.pdf?v=1702707677777" target="_blank">resume</a>
+            </p>
+            </div>
+          </div>
+        </div>
+        <div class="polaroid">
+          <p class="jumpto">
+            Jump to
+          </p>
+          <ul class="aboutlist">
+            <a href="#datavisualization"><li class="button">Data visualization</li></a>
+            <a href="#writingandediting"><li class="button">Writing and editing</li></a>
+            <a href="#numericalmodeling"><li class="button">Numerical modeling</li></a>
+            <a href="#projectmanagement"><li class="button">Project management</li></a>
+            <a href="#remotesensing"><li class="button">Remote sensing + GIS</li></a>
+            <a href="#customsoftware"><li class="button">Custom software</li></a>
+          </ul>
+        </div>
+      </div>
+      <div class="space">
+      </div>
+      <div class="sectioncard" id="datavisualization">
+      <h3>
+        Data visualization and interpretation
+        </h3>
+        <div class="polaroid">
+          <p class="leadtext">
+            The Python package <i>plotly</i> makes it easy to <a href="3dPlot.html" target="_blank">interactively view</a> data with three dimensions. 
+            Python source code is <a href="https://colab.research.google.com/drive/14W7aLR8HSdJ0JYJoRcAwbMXbfVs8y9fl?usp=sharing" target="_blank">
+            here</a>.
+          </p>
+          <a href="3dPlot.html" target="_blank">
+            <img class="tall" alt="A three-dimensional perspective of a point cloud. X and Y axes are longitude and latitude, and the Z axis is depth." src="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/3dPlotStatic.png?v=1702753497347">
+            <p class="caption">
+            Click to interact
+            </p>
+          </a>
+        </div>
+        <div class="polaroid">
+          <p class="leadtext">
+            Soil texture affects how precipitation is absorbed and released to streams or for use by vegetation. 
+            But prior research uses the coarse designations shown here, which do not capture heterogeneity and are scale-dependent.
+            My dissertation used <i>in situ</i> and remotely-sensed observations to gain a more
+            nuanced and accurate understanding of soil moisture dynamics. This work impacts weather forecasts, drought and flood
+            assessments, and crop yield predictions. For more, see <a href="#numericalmodeling">Numerical 
+            modeling of natural processes</a> and <a href="#remotesensing">Remote sensing + GIS</a> on this page.
+          </p>
+          <img class="photo" alt="A map of the continental US overlain with colorful patches 
+                                  indicating the locations of different soil textures. On the 
+                                  right is a bar chart showing the modal prevalence of each texture.
+                                  The predominant types are sandy loam, silt loam, and loam." src="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/mapOfNldasTextures.png?v=1703185694515">
+        </div>
+        <div class="polaroid">
+          <p class="leadtext">
+            Collaborating with social scientists, I analyzed the impact of Seattle Council Bill 119981 
+            on police accountability and community investments in this <a href="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/infographicFull.png?v=1702756617775" target="_blank">
+            infographic</a> 
+            and <a href="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/For%20true%20public%20safety.pdf?v=1703187188961" target="_blank">
+            op-ed</a>.
+          </p>
+          <a href="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/infographicFull.png?v=1702756617775"  target="_blank">
+            <img class="photo" alt="A chart with time on the x-axis (January through May, 2021), and 
+                                    millions of dollars on the y-axis. There are two lines on the chart; 
+                                    one trends upwards, indicating the Seattle Police Department budget,
+                                    and one trends downwards, indicating Participatory Budgeting." src="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/infographicCropped.jpg?v=1702756830628">
+            <p class="caption">
+            Click for full version
+            </p>
+          </a>
+        </div>
+      </div>
+      <div class="space">
+      </div>
+      <div class="sectioncard" id="writingandediting">
+        <h3>
+        Writing and editing
+        </h3>
+        <div class="polaroid">
+          <p class="leadtext">
+            My research has been peer-reviewed and published in academic journals. In turn, I have reviewed dozens of other folk's work. 
+            The references below and more are also shown on
+            <a href="https://scholar.google.com/citations?user=4HaoS4IAAAAJ&hl=en" target="_blank">
+              Google Scholar</a>.
+          </p>
+          <ul class="publicationstext">
+            <li>Tangdamrongsub, N., Dong, J., and <strong>Shellito, P. J.</strong> (2022). <span class="italic">Assessing Performances of Multivariate Data Assimilation Algorithms with SMOS, SMAP, and GRACE Observations for Improved Soil Moisture and Groundwater Analyses</span>. Water, 14, 621, doi: <a href="https://www.mdpi.com/2073-4441/14/4/621/htm" target="_blank">10.3390/w14040621</a></li>
+            <li>Tangdamrongsub, N., Jasinski, M. F., and <strong>Shellito, P. J.</strong> (2021). <span class="italic">Development and evaluation of 0.05° terrestrial water storage estimates using CABLE land surface model and assimilation of GRACE data</span>. Hydrol. Earth Syst. Sci., 25, 4185–4208, doi: <a href="https://hess.copernicus.org/articles/25/4185/2021/" target="_blank">10.5194/hess-2020-665</a></li>
+            <li><strong>Shellito, P. J.</strong>, Kumar, S. V., Santanello, J. A., Lawston, P. M., Bolten, J. D., Cosh, M. H., Bosch, D. D., Holifield Collins, C. D., Livingston, S., Prueger, J., Seyfried, M., and J. P. Starks (2020). <span class="italic">Assessing the impact of soil layer depth specification on the observability of modeled soil moisture and brightness temperature</span>. J. Hydrometeorol., 21(9), 2041-2060, doi: <a href="https://journals.ametsoc.org/view/journals/hydr/21/9/jhmD190280.xml" target="_blank">10.1175/JHM-D-19-0280.1</a></li>
+            <li><strong>Shellito, P. J.</strong>, E. E. Small, and B. Livneh (2018), <span class="italic">Controls on surface soil drying rates observed by SMAP and simulated by the Noah land surface model</span>. Hydrol. Earth Syst. Sci., 22, 1649-1663, doi: <a href="https://hess.copernicus.org/articles/22/1649/2018/" target="_blank">10.5194/hess-22-1649-2018.</a></li>
+            <li><strong>Shellito, P. J.</strong> et al. (2016), <span class="italic">SMAP soil moisture drying more rapid than observed in situ following rainfall events</span>. Geophys. Res. Lett., 43(15), 8068–8075, doi: <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016GL069946" target="_blank">10.1002/2016GL069946.</a></li>
+            <li><strong>Shellito, P. J.</strong>, E. E. Small, and M. H. Cosh (2016), <span class="italic">Calibration of Noah Soil Hydraulic Property Parameters Using Surface Soil Moisture from SMOS and Basinwide In Situ Observations</span>. J. Hydrometeorol., 17(8), 2275–2292, doi: <a href="https://journals.ametsoc.org/view/journals/hydr/17/8/jhm-d-15-0153_1.xml" target="_blank">10.1175/JHM-D-15-0153.1.</a></li>
+          </ul>
+        </div>
+        <div class="polaroid">
+          <p class="leadtext">
+            Volunteer writing, editing, and publishing:
+          </p>
+          <ul class="writingtext">
+            <li>I spent multiple years as a writing mentor for undergraduate participants in NSF's 
+              Research Experiences in Solid Earth Science for Students (<a href="https://resess.unavco.org" target="_blank">RESESS</a>).
+              <img class="photo" alt="Four people standing in front of shrubs and rocks in Boulder, Colorado, 
+                                      two of whom are holding
+                                      a poster. One of the people is describing the information on the poster to 
+                                      the viewer." src="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/resess.jpg?v=1702758959022">
+            </li>
+            <li>
+              Following the murder of George Floyd and others, I created an anti-racist newsletter called <span class="italic"><a href="https://seattleabolitionsupport.substack.com" target="_blank">
+              Seattle Abolition Support</a></span> to highlight Seattle's progress in participatory research,
+              participatory budgeting, and non-police approaches to public safety.
+            </li>
+            <li>
+              I co-founded <span class="italic">PB Creators</span>, a research and creative
+              team that advocates for participatory budgeting (PB) and community-led public 
+              safety using <a href="https://www.instagram.com/p/CN-EEJ3Mbm0/" target="_blank">artwork</a>, 
+              interactive <a href="http://should-spd-do-it.glitch.me" target="_blank">web pages</a> and 
+              <a href="https://www.instagram.com/p/CVSs8xVlRB9/?img_index=1" target="_blank">Instagram series</a>.
+            </li>
+          </ul>
+        </div>
+      </div>
+    <div class="space">
+    </div>
+    <div class="sectioncard" id="numericalmodeling">
+      <h3>
+        Numerical modeling of natural processes
+      </h3>
+      <div class="polaroid">
+        <p class="leadtext">
+          This toy model I built uses an implicit solver to simulate thermal diffusion into and out of the land surface.
+        </p>
+        <div class="snakeloop">
+          <video alt="A video animation of a figure with temperature on the x-axis and depth on the y-axis.
+                      There is a curve showing that in winter, the ground is cold at the surface but warmer at
+                      1 meter depth. When animated, the line moves like a snake writhing in an exponential funnel.
+                      We see that in the summer, the temperature is warm at the surface, but remains steady (cooler)
+                      at 1 meter depth. There is a lag and attenuation of heat propagation into the ground." 
+                 width="100%" height="auto" controls loop>
+          <source src="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/snakeWrithing30fps.mp4?v=1702794361672" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      <div class="polaroid" id="drydowns">
+        <p class="leadtext">
+          In situ and remotely-sensed soil moisture observations can capture the natural 
+          cycle of land surface wetting and drying. Highlighted in green below are 
+          multi-day drydown periods at locations in Oklahoma and California. Using a time series analysis
+          of rainfall data, I identified over 100 drydowns at 17 well-instrumented
+          sites in the U.S. and abroad. 
+          Small blue dots (appearing as squiggly lines) are <i>in situ</i> observations of volumetric 
+          soil moisture (VSM), and red exes are satellite-based observations of the same.
+        </p>
+        <p class="followtext">
+          I fit an exponential decay model to each drydown to produce the curves below. 
+          The optimized decay timescale, &tau;,
+          is robust to biases and isolates a key characteristic of the location and observation type. 
+          See <a href="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/Shellito_et_al-2016-Geophysical_Research_Letters.pdf?v=1702934703707">Shellito et al. (2016)</a> 
+          for further details of this work and figure.
+        </p>
+        <a href="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/Shellito_et_al-2016-Geophysical_Research_Letters.pdf?v=1702934703707" target="_blank">
+          <img class="infographic" alt="A figure with two panels showing two similar figures at two locations.
+                                        Each one contains time on the x-axis, volumetric soil moisture on the 
+                                        the left y-axis, and precipitation on the right y-axis. We see that 
+                                        whenever there is rainfall, the soil moisture jumps up, then gradually dries
+                                        out over the subsequent 5-10 days. The dring out periods (three on each
+                                        panel) are highlighted in green and have exponential decay curves 
+                                        overlying the observations. The curves fit the data well."
+               src="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/grlFig1_focotora.jpg?v=1702934662211">
+        </a>
+      </div>
+      <div class="polaroid">
+        <p class="leadtext">
+          Ensemble simulations and parameter calibration can improve model estimates of soil moisture.
+          Below, I created over a dozen simulations of soil moisture (gray lines) with the Noah land surface model
+          by perturbing some of its parameters. I then used a machine learning algorithm 
+          to create solutions that have been calibrated to a few different observational
+          datasets (blue, green, and red lines). 
+        </p>
+        <p class="followtext">
+          Here, the simulation that best fits 
+          <i>in situ</i> observations 
+          (blue squares) is the blue line. Ensemble simulations are 
+          useful for determining uncertainty, and their average can be more reliable than any 
+          individual model run.
+          See <a href="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/Shellito_et_al-2016-Journal_of_Hydrometeorology.pdf?v=1702938437070" target="_blank">
+          Shellito et al. (2016b)</a> for more.
+        </p>
+        <a href="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/Shellito_et_al-2016-Journal_of_Hydrometeorology.pdf?v=1702938437070" target="_blank">
+          <img class="photo" alt="A figure with time on the x-axis, volumetric soil moisture on the y-axis, and
+                                  over a dozen similar curves tracing across the plot. On a second y-axis, precipitation
+                                  volume is shown in milimeters. As before, the soil moisture jumps every time there is rainfall and 
+                                  dries down when there is not. Blue squares indicating in situ observations are overlying
+                                  the curves. None of the curves fit perfectly, but they all capture the general trends."
+               src="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/jhmFig1_stjo.png?v=1702938318515">
+        </a>
+      </div>
+    </div>
+    <div class="space">
+    </div>
+    <div class="sectioncard" id="projectmanagement">
+      <h3>
+        Project management
+      </h3>
+      <div class="polaroid">
+        <p class="leadtext">
+          Tye Reed <a href="https://www.thestranger.com/elections-2023/2023/05/19/78997570/mutual-aid-organizer-tye-reed-enters-city-council-race-in-north-seattle" target="_blank">ran</a>
+          for city council in Seattle district 5. I managed field efforts and successfully qualified the campaign for democracy vouchers.
+        </p>
+        <img class="photo" alt="22 people in casual clothing posing in a yard in front of a small house. Many have arms around 
+                                each other and some are kneeling in front."
+             src="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/tyeforfive.jpg?v=1703032247186">
+      </div>
+      <div class="polaroid">
+        <p class="leadtext">
+          Together with my dissertation committee and other colleagues, I designed and 
+          carried-out numerical experiments to better understand how precipitation moves 
+          through soil and vegetation. I have practice preparing proposals, giving 
+          presentations, and soliciting feedback from peers. These relationships and 
+          projects are documented in my 
+          <a href="https://scholar.google.com/citations?user=4HaoS4IAAAAJ&hl=en" target="_blank">
+            publication record</a>.
+        </p>
+        <img class="photo" alt="A powerful rainstorm as viewed across prairie land"
+             src="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/thunderhead.jpeg?v=1703031569675">
+      </div>
+      <div class="polaroid">
+        <p class="leadtext">
+          Seattle's city council resourced the <a href="https://southseattleemerald.com/2021/03/03/black-brilliance-research-project-releases-final-report/" target="_blank">
+          Black Brilliance Research Project</a> 
+          to use participatory research to develop non-police modes for public 
+          health and safety. I managed volunteers, conducted 
+          validation checks, and supported the implementation of participatory 
+          budgeting. These efforts are documented in the early issues of the SAS newsletter 
+          (issues 
+          <a href="https://seattleabolitionsupport.substack.com/p/issue-1-pb-and-j-participatory-budgeting" target="_blank">1</a>, 
+          <a href="https://seattleabolitionsupport.substack.com/p/issue-2-black-brilliance-research" target="_blank">2</a>, 
+          <a href="https://seattleabolitionsupport.substack.com/p/seattle-abolition-support-issue-3" target="_blank">3</a>, 
+          <a href="https://seattleabolitionsupport.substack.com/p/issue-4-defend-the-defund" target="_blank">4</a>, 
+          and <a href="https://seattleabolitionsupport.substack.com/p/issue-5-defund-redistribute-and-repair" target="_blank">5</a>).
+        </p>
+        <img class="photo tall" alt="An illustration of a jar of peanut butter with the words, 
+                                     “Participatory Budgeting,” plus a jar of jelly with the word, 
+                                     “Justice,” sit next to a peanut butter and jelly sandwich with a 
+                                     bite taken out of it and the words, “Let’s do this Seattle” on top."
+           src="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/pb-j.jpg?v=1703032010547">
+        <p class="caption">
+          Volunteer artwork by Matt O.
+        </p>
+      </div>
+    </div>
+    <div class="space">
+    </div>
+    <div class="sectioncard" id="remotesensing">
+      <h3>
+        Remote sensing and geographic analyses
+      </h3>
+      <div class="polaroid">
+        <p class="leadtext">
+          NASA’s <a href="https://smap.jpl.nasa.gov/" target="_blank">SMAP satellite mission</a> 
+          measures soil moisture from space. The number of valid observations 
+          from three years of operation are shown in panel (a). 
+          After using rainfall data to identify drydown events (examples shown 
+          <a href="#drydowns">above</a>), I used satellite data to 
+          calculate hundreds of soil drying rates at over 75,000 pixels (panel b). 
+          The mean drying rates from these satellite observations are shown in panel
+          (c). Panel (d) shows the mean drying rates from the same time 
+          periods using model simulations. See <a href="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/Shellito_et_al-2018-Hydrology_and_Earth_System_Sciences.pdf?v=1703033900347" target="_blank">
+          Shellito et al. (2018)</a> for further explanation and analysis.
+        </p>
+        <a href="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/Shellito_et_al-2018-Hydrology_and_Earth_System_Sciences.pdf?v=1703033900347" target="_blank">
+          <img class="photo" alt="Four panels all based on the ouline of the continental US. The first and second (a and b)
+                                  have colors indicating counts of satellite observations and soil drying rates,
+                                  respectively. Most locations have about 300 satellite observations and 100
+                                  soil drying rates. The more forested parts of the country have no observations.
+                                  The third and fourth panels have colors indicating soil drying rates, in cubic centimters
+                                  per day. There are no data where there were no satellite observations. The two panels
+                                  are slightly different, as one is derived from satellite observations and the other is
+                                  derived from a model, but they show similar patterns. The fastest
+                                  drying rates are in the middle part of the country."
+               src="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/hessFig01.png?v=1703033473068">
+        </a>
+      </div>
+      <div class="polaroid">
+        <p class="leadtext">
+          This continent-wide analysis of monthly average potential evaporation 
+          rates and vegetation cover (defined by NDVI) shows heavy dependency on 
+          geography. Climates with large seasonal variations in vegetation cover (green subset) 
+          experience higher potential evaporation rates when leaves are out 
+          (in the summer) than when they have fallen (in the winter). Vegetation 
+          in arid regions (red subset) is low all year and does not correlate with potential 
+          evaporation. The impact of both regions is apparent in the combined 
+          data (blue circles with error bars). See <a href="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/Shellito_et_al-2018-Hydrology_and_Earth_System_Sciences.pdf?v=1703033900347" target="_blank">
+          Shellito et al. (2018)</a> for further details.
+        </p>
+        <a href="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/Shellito_et_al-2018-Hydrology_and_Earth_System_Sciences.pdf?v=1703033900347" target="_blank">
+          <img class="photo" alt="Two panels, one of which is an outline of the continental US, shaded to show mean
+                                  annual vegetation coverage. For the most part, the east part of the country 
+                                  is more vegetated than the west. There are two insets, one near the great lakes (a humid region),
+                                  and one the the southwest (a dry region). The second panel is a plot with vegetation on the x-axis
+                                  and potential evaporation (PE) on the y-axis. Three sets of data are on the plot, one from the humid 
+                                  region, one from the desert region, and one with error bars showing all data combined. The humid region
+                                  shows a strong positive correlation between PE and vegetation. The desert region shows wide variations of
+                                  PE but consistently low vegetation. The combined data show a muted impact of both regions."
+               src="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/hessFg08.png?v=1703034421672">
+        </a>
+      </div>
+      <div class="polaroid">
+        <p class="leadtext">
+              After doubling the vertical resolution of a land surface model and 
+              comparing it to remotely-sensed observations, I show 
+              improvement (blue) and degradation (red) of soil moisture simulations continent-wide. 
+              Thinner model layers can improve observability but lead to a dry bias in some regions. 
+              See <a href="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/Shellito%20et%20al.%20-%202020%20-%20Assessing%20the%20Impact%20of%20Soil%20Layer%20Depth%20Specification%20on%20the%20Observability%20of%20Modeled%20Soil%20Moisture%20and%20Bright.pdf?v=1702750889646" target="_blank">Shellito et al. (2020)</a> for scale and details.
+        </p>
+        <a href="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/Shellito%20et%20al.%20-%202020%20-%20Assessing%20the%20Impact%20of%20Soil%20Layer%20Depth%20Specification%20on%20the%20Observability%20of%20Modeled%20Soil%20Moisture%20and%20Bright.pdf?v=1702750889646" target="_blank">
+          <img class="photo" alt="A map of the continental US, with blue and red shading overlying it. Most of the map area is 
+                                  blue, but there are red patches near Minnestoa and in the dry regions of California and 
+                                  Arizona."
+               src="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/JHM2020-12c.jpg?v=1702711651955">
+        </a>
+      </div>
+    </div>    
+    <div class="space">
+    </div>
+    <div class="sectioncard" id="customsoftware">
+      <h3>
+        Custom software for data engineering
+      </h3>
+      <div class="polaroid">
+        <p class="solotext">
+          Large amounts of modeled and remotely-sensed data are available from public 
+          repositories. I automated the retrieval process for 
+          <a href="https://github.com/pshellito/download-smap-enhanced-data" target="_blank">SMAP</a>, 
+          <a href="https://github.com/pshellito/download-nldas-noahData" target="_blank">Noah</a>, and 
+          <a href="https://github.com/pshellito/download-nldas-forcings" target="_blank">NLDAS</a> 
+          data, and the scripts are available for other researchers on Github.
+        </p>
+      </div>
+      <div class="polaroid">
+        <p class="solotext">
+          Remotely-sensed data contain one file for every time step in a given domain. 
+          Many types of analyses require aggregating the data into a continuous time 
+          series, with one file for each pixel being analyzed. I created and shared
+          a <a href="https://github.com/pshellito/smap_data_processing" target="_blank">script</a>
+          that uses batched operations to convert thousands of 2-D files into tens 
+          of thousands of 1-D time series while avoiding memory limits.
+        </p>
+      </div>
+    </div>
+  <div class="space">
+  </div>
+    <!-- The footer  -->
+        <div class="none">
+            <ul class="footer">
+              <li>Website by Peter</li>
+              <li>Send me an <a href="mailto:shellito@gmail.com" target="_blank">email</a></li>
+              <li>Connect on <a href="https://www.linkedin.com/in/peter-shellito/" target="_blank">LinkedIn</a></li>
+              <li>View my <a href="https://cdn.glitch.global/624b9e82-17ab-4dce-8ef0-f604e7f296e6/Peter%20Condit%20Resume.pdf?v=1702707677777" target="_blank">resume</a></li>
+              <li>Return to <a href="#top-anchor">top</a></li>
+          </ul>
+          </div>
+    </div>          
+  </body>
+</html>
