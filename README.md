@@ -1,2 +1,3 @@
 # Peter Condit Website
-Current url is here: https://oxbow-science.onrender.com
+Current (free) url is here: https://oxbow-science.onrender.com
+Current paid url is here: https://www.petercondit.com/
