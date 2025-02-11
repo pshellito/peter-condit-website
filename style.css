@@ -1122,6 +1122,9 @@ img.photo {
 img.tall {
   max-width: 350px;
 }
+img.medium {
+  max-width: 450px;
+}
 img.infographic {
   max-width: 700px;
   padding-right: 0.5em;
